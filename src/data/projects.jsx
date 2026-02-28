@@ -1,5 +1,28 @@
 export const projects = [
   {
+    title: "RegiSpot",
+    date: "Feb 2026",
+    tech: [
+      "React",
+      "Node.js",
+      "AWS Lambda",
+      "API Gateway",
+      "DynamoDB",
+      "AWS Cognito",
+      "AWS SAM",
+    ],
+    highlights: [
+      "Built a full-stack sports session signup platform for badminton groups, featuring group creation, invite-code joining, and role-based access for owners and members.",
+      "Designed a serverless REST API with 12+ Lambda functions deployed via AWS SAM, backed by a single-table DynamoDB schema.",
+      "Implemented session scheduling with sport-specific fields (match format, skill level, court count) and real-time signup tracking with capacity enforcement.",
+      "Secured all endpoints with AWS Cognito JWT authentication and CORS-compliant API Gateway responses.",
+    ],
+    links: {
+      github: "https://github.com/junhp94/RegiSpot",
+      demo: "https://d3drhebc0ddq5m.cloudfront.net/",
+    },
+  },
+  {
     title: "RouteNode",
     date: "Nov 2025",
     tech: [
@@ -16,7 +39,7 @@ export const projects = [
       "Integrated Google Maps and Places APIs with reusable RecyclerView adapters.",
     ],
     links: {
-      github: "https://github.com/junhp94",
+      github: "https://github.com/mark2515/RouteNode",
       demo: "",
     },
   },
@@ -31,7 +54,7 @@ export const projects = [
       "Implemented dynamic UI updates and smooth payment flow.",
     ],
     links: {
-      github: "https://github.com/junhp94",
+      github: "https://github.com/junhp94/Payment",
       demo: "",
     },
   },
